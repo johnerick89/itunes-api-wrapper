@@ -10,7 +10,7 @@ The itunes-api-wrapper is an API for the iTunes Search API that allows you to se
 ## Setup
 To set up and run the itunes-api-wrapper, follow these steps:
 
-1. Clone the repository: `$ git clone https://github.com/your-username/itunes-api-wrapper.git`
+1. Clone the repository: `$ git clone https://github.com/johnerick89/itunes-api-wrapper.git`
 2. Navigate into the project directory: `$ cd itunes-api-wrapper`
 3. Create a new virtual environment (optional): `$ python3 -m venv env`
 4. Activate the virtual environment: `$ source env/bin/activate` (Linux/MacOS) or `$ env\Scripts\activate` (Windows)
@@ -20,9 +20,10 @@ To set up and run the itunes-api-wrapper, follow these steps:
 
 
 ## Usage
-To start the Django development server, run the following command:
-`$ python3 manage.py runserver`
-The API will be available at `http://127.0.0.1:8000/`. You can access the Django admin panel at `http://127.0.0.1:8000/admin/`.
+To start the Django development server, run the following command: `$ python3 manage.py runserver`.
+
+The API will be available at `http://127.0.0.1:8000/`. 
+You can access the Django admin panel at `http://127.0.0.1:8000/admin/`.
 
 ## Endpoints
 ## Artists
