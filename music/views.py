@@ -128,7 +128,7 @@ class SongList(APIView):
         return Response(serializer.data)
     
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter]
-    filterset_class = AlbumFilter
+    filterset_class = SongFilter
     ordering_fields = ['album', 'artist', 'artist_name', 'genre_name']
 
     def post(self, request, format=None):
